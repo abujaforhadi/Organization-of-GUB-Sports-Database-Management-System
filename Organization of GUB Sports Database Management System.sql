@@ -209,6 +209,9 @@ WHERE batch=203;
 SELECT DISTINCT dept_name
 FROM student_info;
 
+SELECT CONCAT(alumni.alumni_ID,alumni.Occupation)
+FROM alumni
+
 --lab8
 
 SELECT c.student_ID as "Student Id",c.contract_no,e.event_name,e.student_roll
